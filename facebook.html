@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook – log in or sign up</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            background:linear-gradient(white,lightblue);
+        }
+
+        header{
+            background-color: #2D5593;
+            width: 100%;
+            height:140px;
+            border-bottom: 0.1px solid #8ab6d1;
+
+        }
+        header h1{
+            color: white;
+            margin:0;
+            padding-top: 20px;
+            padding-left: 5px;
+            width:250px;
+            display: inline-block;
+            font-size:2.5em ;
+        }
+        h1 a{
+            text-decoration: none;
+            color: white;
+        }
+        table{
+            float: right;
+            margin-right: 200px;
+        }
+        td{
+            color: white;
+        }
+        td a{
+            text-decoration: none;
+            color: #CCD3E6;
+        }
+        td a:hover{
+            text-decoration: underline;
+        }
+        #log{
+            background-color:#294384;
+            width:50px;
+            padding: 5px;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        #log:hover{
+            background-color:#294364 ;
+        }
+        .account table tr td input{
+            padding: 10px;
+            border-radius:5px;
+            border:1px solid #2d607f;
+            outline:none;
+        }
+        .account table{
+            width: 50%;
+            display: block;
+            float: right;
+        }
+        .account table tr td{
+            padding: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div>
+    <header>
+        <h1><a href="https://www.facebook.com/" target="_blank"> facebook</a></h1>
+
+
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="eamail">Email or Phone</label>
+                </td>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email">
+                </td>
+
+                <td>
+                    <input type="password">
+                </td>
+                <td>
+                    <input type="submit" value="Log in" id="log" onclick="">
+                </td>
+            </tr>
+            <tr>
+                <td><a href="#">Forgotten account?</a> </td>
+            </tr>
+        </table>
+    </form>
+    </header>
+    <section>
+        <div>
+            <p style="width: 40%; margin-left: 150px; font-size: 2em;">Facebook helps you connect and share with the people in your life.</p>
+            <table width="50" style="float: left ;margin-top: 100px;margin-left: 40px;margin-right: 0;">
+                <tr>
+                    <td>
+                        <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/GwFs3_KxNjS.png" width="700" height="300">
+                    </td>
+                </tr>
+            </table>
+            <div class="account">
+            <table width="50" style="float: right;margin: 0;">
+
+                <tr>
+                    <td style="color: black;font-size: 2em;font-weight: bold">
+                        Create an account
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: black;font-size: 1.5em">
+                        it's free and always will be.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="First name" required style="font-size: 19px">
+                        <input type="text" placeholder="Surname" required style="font-size: 19px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Mobile number or email address" style="width:400px;font-size: 20px;" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" placeholder="New password" pattern="[1@sF._*]"style="width:400px;font-size: 20px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: black;font-size:25px">
+                        Birthday
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select style="font-size:15px;padding: 10px;">
+                            <optgroup label="day">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </optgroup>
+                        </select>
+                        <select style="font-size:15px;padding: 10px">
+                            <optgroup label="month">
+                                <option>Jan</option>
+                                <option>Feb</option>
+                                <option>Mar</option>
+                                <option>Apr</option>
+                                <option>May</option>
+                                <option>Jun</option>
+                                <option>Jul</option>
+                                <option>Aug</option>
+                                <option>Sep</option>
+                                <option>Oct</option>
+                                <option>Nav</option>
+                                <option>Dec</option>
+                            </optgroup>
+                        </select>
+                        <select style="font-size:15px;padding: 10px">
+                            <optgroup label="year">
+                                <option>1993</option>
+                                <option>1994</option>
+                                <option>1995</option>
+                                <option>1996</option>
+                                <option>1997</option>
+                                <option>1998</option>
+                                <option>1999</option>
+                                <option>2000</option>
+                                <option>2001</option>
+                                <option>2002</option>
+                                <option>2003</option>
+                                <option>2004</option>
+                                <option>2005</option>
+                                <option>2006</option>
+                                <option>2007</option>
+                                <option>2008</option>
+                                <option>2009</option>
+                                <option>2010</option>
+                                <option>2011</option>
+                                <option>2012</option>
+                                <option>2013</option>
+                                <option>2014</option>
+                                <option>2015</option>
+                                <option>2016</option>
+                                <option>2017</option>
+                                <option>2018</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: black;font-size: 1.4em;">
+                        <input type="radio" name="easy">Female
+                        <input type="radio" name="easy">Male
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       <p style="color:black;font-size:14px"> By clicking Sign Up you agree to our <a href="#" style="color: #2D5593;">Terms Data Policy</a> and<a href="#"style="color: #2D5593;">Cookie Policy</a> You may receive SMS notifications from us and can opt out at any time</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Sign Up" style="padding: 15px;color:white;width:250px;background-color: #4F7942;font-size: 1.2em;border-radius: 5px;cursor: pointer;">
+                    </td>
+                </tr>
+
+            </table>
+
+            </div>
+
+        </div>
+    </section>
+</div>
+</body>
+</html>
